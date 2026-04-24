@@ -175,6 +175,7 @@ Scan the QR below 👇
 ⭐ <b>Star the repo</b> if you like this project!
 
 </p>
+
 ## 👨‍💻 Authors
 
 - Arjun C  
