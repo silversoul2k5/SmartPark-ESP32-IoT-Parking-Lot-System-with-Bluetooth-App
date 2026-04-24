@@ -158,7 +158,7 @@ If you found this project useful, consider supporting 💖
 
 <br><br>
 
-💰 <b>UPI Support</b>  
+## 💰 <b>UPI Support</b>  
 <br>
 Scan the QR below 👇
 
