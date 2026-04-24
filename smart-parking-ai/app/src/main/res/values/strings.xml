@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Smart Parking AI</string>
+    <string name="devices">Choose Your ESP32</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+
+    <string name="assistant_title">Parking Assistant</string>
+    <string name="assistant_prompt_hint">Say or type something like \"I am in front of the gate\"</string>
+    <string name="assistant_send">Ask Assistant</string>
+    <string name="assistant_mic">Use Mic</string>
+    <string name="assistant_thinking">Thinking about your request...</string>
+    <string name="assistant_last_request_label">Last request</string>
+    <string name="assistant_last_reply_label">Last reply</string>
+    <string name="assistant_no_request">No voice request yet.</string>
+    <string name="assistant_default_reply">Ask about the gate, parking availability, or which slots are free.</string>
+    <string name="assistant_ready">Ready to assist with natural-language parking commands.</string>
+    <string name="assistant_local_mode">Online AI key missing, so local fallback logic is active.</string>
+    <string name="assistant_thinking_button">Thinking...</string>
+
+    <string name="parking_overview_title">Parking Overview</string>
+    <string name="slots_title">Parking Mini Map</string>
+    <string name="map_hint">Tap to expand. The route cycles between Slots 1-4, with Slot 1 using the live ultrasonic sensor.</string>
+    <string name="map_expanded_title">Parking Route Map</string>
+    <string name="manual_controls_title">Manual Gate Control</string>
+    <string name="serial_log_title">ESP32 Serial Log</string>
+    <string name="protocol_hint">Recommended ESP32 messages: GATE:OPEN and SLOTS:0 where 0 means free and 1 means occupied. JSON with gate and slots also works.</string>
+
+    <string name="connection_connecting">Connecting to ESP32...</string>
+    <string name="connection_connected">Bluetooth connected</string>
+    <string name="connection_disconnected">Bluetooth disconnected</string>
+    <string name="device_address_value">ESP32 address: %1$s</string>
+    <string name="gate_state_value">Gate: %1$s</string>
+    <string name="open_gate">Open Gate</string>
+    <string name="close_gate">Close Gate</string>
+    <string name="manual_open_reply">Open command sent to the gate.</string>
+    <string name="manual_close_reply">Close command sent to the gate.</string>
+    <string name="connect_first">Connect to your ESP32 before sending gate commands.</string>
+
+    <string name="availability_unknown_title">Waiting For Sensor Data</string>
+    <string name="availability_available_title">Parking Available</string>
+    <string name="availability_full_title">Parking Full</string>
+    <string name="availability_unknown_summary">The app is waiting for ESP32 updates about the lot.</string>
+
+    <string name="slot_label">Slot %1$d</string>
+    <string name="slot_state_free">Free</string>
+    <string name="slot_state_occupied">Occupied</string>
+    <string name="slot_state_unknown">Waiting</string>
+
+    <string name="speech_not_available">Speech recognition is not available on this device.</string>
+    <string name="microphone_permission_denied">Microphone permission is required for voice control.</string>
+</resources>
