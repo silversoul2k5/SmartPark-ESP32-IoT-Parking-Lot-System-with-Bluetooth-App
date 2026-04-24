@@ -144,7 +144,7 @@
 | 1 | Upload ESP32 code |
 | 2 | Power ESP32 |
 | 3 | Pair Bluetooth → ESP32_Parking |
-| 4 | Open app |
+| 4 | Open app |(Just open folder "smart-parking-ai" on android studio sync then run it )
 | 5 | Use buttons or voice assistant |
 
 ---
