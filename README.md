@@ -1,5 +1,6 @@
 # 🚗 SmartPark-ESP32  
 ### AI-Powered IoT Parking Lot System with Bluetooth App & Voice Assistant
+<img width="640" height="482" alt="image" src="https://github.com/user-attachments/assets/a60267c9-7bda-4a50-92f6-5e608644e27c" />
 
 ---
 
